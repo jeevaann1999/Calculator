@@ -66,6 +66,15 @@ public class Main
                 default:
                     System.out.println("Invalid Options");
             }
+            System.out.println("Do you want to calculate again if yes press 1 else 0");
+            int option2 = input.nextInt();
+            if(option2 == 1){
+                flag = 0;
+            }
+            else{
+                flag = 1;
+                System.out.println("Compute");
+            }
         }
     }
 }
