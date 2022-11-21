@@ -6,6 +6,12 @@ public class Main
         return sum;
     }
 
+    public static double subtract(double i, double j)
+    {
+        double subtract = i - j;
+        return subtract;
+    }
+
     public static void main(String[] args)
     {
         System.out.println("Create a Calculator");
