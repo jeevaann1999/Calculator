@@ -18,6 +18,11 @@ public class Main
         return multiply;
     }
 
+    public static double div(double i, double j)
+    {
+        double div = i * j;
+        return div;
+    }
     public static void main(String[] args)
     {
         System.out.println("Create a Calculator");
