@@ -20,7 +20,7 @@ public class Main
 
     public static double div(double i, double j)
     {
-        double div = i * j;
+        double div = i/j;
         return div;
     }
     public static void main(String[] args)
