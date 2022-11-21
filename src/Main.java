@@ -12,6 +12,12 @@ public class Main
         return subtract;
     }
 
+    public static double multiply(double i, double j)
+    {
+        double multiply = i * j;
+        return multiply;
+    }
+
     public static void main(String[] args)
     {
         System.out.println("Create a Calculator");
